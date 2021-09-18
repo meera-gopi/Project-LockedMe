@@ -1,7 +1,6 @@
 package com.assessment.lockedme;
 
-import java.io.IOException;
-import java.nio.file.InvalidPathException;
+
 import java.util.Scanner;
 
 
@@ -140,7 +139,8 @@ public class UserInterfaceMenu {
 
 	//Exit screen message
 	protected void exitScreen() {
+		sc.close();
 		System.out.println("\n\n          Thank you for visiting LockedMe.com          ");
-		lineSeperator();
+		System.exit(0);		
 	}
 }

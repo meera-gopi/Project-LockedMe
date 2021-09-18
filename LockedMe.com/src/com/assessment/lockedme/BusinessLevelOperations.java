@@ -2,7 +2,6 @@ package com.assessment.lockedme;
 
 import java.io.IOException;
 import java.nio.file.Files;
-import java.nio.file.InvalidPathException;
 import java.nio.file.NoSuchFileException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -85,7 +84,7 @@ public class BusinessLevelOperations {
 		if (Files.exists(path))
 			System.out.println("File is present in the location");
 		else {
-			System.out.println("File doesn't exist in the location");
+			System.out.println("File doesn't exist in the specified location");
 		}
 		
 	}

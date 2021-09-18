@@ -58,8 +58,7 @@ public class LockedMeDotCom {
 				}
 				break;
 			case 3:
-				ui.exitScreen();
-				locked.setLocked(false);
+				ui.exitScreen();				
 				break;
 			}
 		}
