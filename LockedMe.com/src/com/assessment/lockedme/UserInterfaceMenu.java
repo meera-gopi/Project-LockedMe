@@ -37,7 +37,7 @@ public class UserInterfaceMenu {
 			int main_choice = Integer.parseInt(sc.nextLine());
 			if(!(main_choice==1||main_choice==2||main_choice==3)) {
 				System.out.println("\nInvalid choice\n");
-				businessUserOptions();
+				mainMenu();
 			}
 			lineSeperator();
 			return main_choice;
